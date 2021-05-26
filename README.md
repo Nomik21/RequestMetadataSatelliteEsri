@@ -9,4 +9,6 @@ The code takes as input a csv file which is produced by an attribute table from 
 The final result is multiple shapefiles which contain the metadata polygons.After this, all shapefiles are merged to one which is projected.
 Finally the merged shapefile has duplicate values which are checked and deleted from the script and as a result it is saved as compiled_new.shp.
 
+Note: The whole code runs in Visual Studio Code which has as Python Interpreter a Miniconda Environment with the appropriate modules installed.
+
 Author : Nomikos Nikolaos
